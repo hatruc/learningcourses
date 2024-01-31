@@ -1,0 +1,44 @@
+.sidebar-container {
+    position: fixed;
+    right: 0;
+    top: 50px;
+    width: 23%;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    margin: 16px 0;
+}
+
+.sidebar-heading {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 12px 24px;
+}
+
+// .sidebar-lesson-wrapper {
+//     display: flex;
+//     background-color: #f7f8fa;
+
+//     &:hover {
+//         cursor: pointer;
+//         background-color: #edeff1;
+//     }
+// }
+
+.sidebar-lesson-list {}
+
+// .sidebar-lesson-item {
+//     display: flex;
+//     align-items: center;
+
+//     &:hover {
+//         cursor: pointer;
+//         background-color: #edeff1;
+//     }
+// }
+
+.lesson-title {}
+
+// .lesson-check-icon{
+//     color: #5db85c;
+//     font-size: 1.4rem;
+// }

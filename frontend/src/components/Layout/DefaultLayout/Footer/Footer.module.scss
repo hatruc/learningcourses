@@ -1,0 +1,35 @@
+.container {
+    background-color: #181821;
+    color: #a9b3bb;
+    overflow: hidden;
+    padding: 68px 0 40px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.content {
+    min-width: 500px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    // justify-content: space-around;
+    font-size: 2rem;
+    font-weight: 600;
+
+    a{
+        margin-right: 10px;
+    }
+}
+
+.about-us {
+    font-size: 1.4rem;
+    font-weight: 400;
+}

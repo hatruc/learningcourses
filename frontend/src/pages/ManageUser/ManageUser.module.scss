@@ -1,0 +1,25 @@
+.container {
+    height: 100%;
+}
+
+.manage-user-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.user-body {
+
+    th {
+        font-size: 1.4rem;
+    }
+
+    td {
+        font-size: 1.4rem;
+    }
+
+    button {
+        font-size: 1.4rem;
+    }
+}

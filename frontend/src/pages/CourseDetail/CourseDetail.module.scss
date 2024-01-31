@@ -1,0 +1,113 @@
+.course-detail-wrapper {
+
+    width: 100%;
+    height: 100%;
+
+    .course-detail-container {
+
+        width: 100%;
+        height: 100%;
+
+        .content-left {
+
+            // background-color: red;
+            .wrapper {
+
+                .course-name {
+                    font-size: 3.6rem;
+                    font-weight: 700;
+                    margin: 26px 0 0 26px;
+                    min-height: 33px;
+                }
+
+                .content-text {
+                    color: rgba(0, 0, 0, .8);
+                    font-size: 1.8rem;
+                    line-height: 1.6;
+                    margin-left: 26px;
+                }
+
+                .content-course {
+                    padding-bottom: 4px;
+
+                    .course {
+                        margin-left: 26px;
+
+                        .title {
+                            align-items: center;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            font-size: 2rem;
+                            font-weight: 600;
+                            margin: 8px 0;
+                        }
+
+                        .course-info-wrapper {
+                            display: flex;
+                            font-size: 1.4rem;
+                            margin-top: 4px;
+
+                            .course-info {
+                                display: flex;
+                                margin: 0;
+                                padding-left: 0;
+                                font: 1.4rem;
+
+                                li {
+                                    margin-right: 4px;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+        .content-right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .wrapper {
+
+                width: 300px;
+
+                .heading {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 32px;
+                    font-weight: 400;
+                    width: 100%;
+                    opacity: .8;
+                    color: orangered;
+                    margin: 20px 0;
+                }
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    p {
+                        padding-left: 94px;
+                        color: #494949;
+                        font-size: 1.4rem;
+                        line-height: 1.6;
+                    }
+
+                    button {
+                        border-radius: 40px;
+                        padding: 4px 20px;
+                        align-self: center;
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
